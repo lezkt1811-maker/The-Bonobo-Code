@@ -1,10 +1,14 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="The Bonobo Code" width="100%">
+</p>
+
 # The Bonobo Code
 
 A research project investigating the relationship between **female social networks, female coalition, social infrastructure, autonomy, and collective power**.
 
 This is a research notebook, not a manifesto. The goal is to test a hypothesis seriously, including by hunting for evidence that would weaken or disprove it.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Central research question
 
@@ -32,13 +36,13 @@ Key working concept, **female social infrastructure**:
 
 Each link in the chain is a hypothesis. Any link may turn out to be weak, conditional, or wrong.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Working hypothesis
 
 Women's autonomy and collective power depend partly on network properties (density, durability, independence from any single institution), and some modern social arrangements may reduce those properties. See [`hypotheses/core-hypotheses.md`](hypotheses/core-hypotheses.md) (H1–H7), each with supporting evidence, contradictory evidence, alternative explanations, open questions, and falsification criteria.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Methodology
 
@@ -66,7 +70,7 @@ Standard structure for each research file:
 
 The 50 conceptual statements in [`notes/50-sentence-conceptual-framework.md`](notes/50-sentence-conceptual-framework.md) are **working ideas (🔴/🟡), not findings** and are never cited as evidence.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## The bonobo comparison
 
@@ -78,7 +82,7 @@ Bonobos are not a peaceful utopia. Aggression, intergroup conflict, and lethal v
 
 ## The human comparison
 
-Human research covers female friendship and kin networks, mutual aid, associations and clubs, household structure, digital communities, women's movements and their internal divisions, violence and protection, historical women's institutions, and marriage/singlehood outcomes. See `research/04`–`10`.
+Human research covers female friendship and kin networks, mutual aid, associations and clubs, household structure, digital communities, women's movements and their internal divisions, violence and protection, historical women's institutions, and marriage/singlehood outcomes. See `research/04`–`11`.
 
 ## Contradictory evidence requirement
 
@@ -88,12 +92,17 @@ No hypothesis is considered "supported" without a documented attempt to falsify 
 
 Patriarchy explains everything; men designed institutions to isolate women; women are naturally peaceful or good; men are inherently bad; bonobos prove a human political theory; female sexuality has one purpose; all women bond with women or need women-only spaces; heterosexual women are less autonomous; evolution is destiny.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Repository map
 
 ```
 README.md
+assets/
+  banner.svg
+  divider.svg
+docs/
+  index.html
 research/
   01-bonobo-social-organization.md
   02-female-coalitions.md
