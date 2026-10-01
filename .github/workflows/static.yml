@@ -36,7 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Publish the themed landing page; assets/ is copied in so the page can reference it
+          # Publish only docs/ (the themed landing page, self-contained). The research
+          # markdown is not published here; it is linked from the page to GitHub.
           path: 'docs'
       - name: Deploy to GitHub Pages
         id: deployment
