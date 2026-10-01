@@ -22,8 +22,8 @@ Dates are approximate unless marked; entries marked **[verify]** need checking. 
 | 2000 | *Bowling Alone* | Civic decline debate | 🟢 |
 | 2003 | *Lawrence v. Texas* | Decriminalization (US) | 🟢 |
 | 2006 | McPherson et al. report shrinking discussion networks | H1 | 🔵 [verify] |
-| 2019 | Bonobo female-female sexual behavior study | `03` | 🔵 |
 | 2014 | Chimpanzee/bonobo killings comparison | `02` | 🔵 |
+| 2019 | Bonobo female-female sexual behavior study (year from PubMed ID; verify) | `03` | 🔵 [verify] |
 | 2023 | Same-sex behavior in 261 mammal species | `03` | 🔵 |
 | 2025 | Female coalition study across six bonobo communities | `02` | 🔵 |
 | 2026 | Bonobo intergroup encounter with infant death | `02` | 🔵 |
