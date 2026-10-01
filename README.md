@@ -40,7 +40,7 @@ Each link in the chain is a hypothesis. Any link may turn out to be weak, condit
 
 ## Working hypothesis
 
-Women's autonomy and collective power depend partly on network properties (density, durability, independence from any single institution), and some modern social arrangements may reduce those properties. See [`hypotheses/core-hypotheses.md`](hypotheses/core-hypotheses.md) (H1–H7), each with supporting evidence, contradictory evidence, alternative explanations, open questions, and falsification criteria.
+Women's autonomy and collective power depend partly on network properties (density, durability, independence from any single institution), and some modern social arrangements may reduce those properties. See [`hypotheses/core-hypotheses.md`](hypotheses/core-hypotheses.md) (H1–H7), each with supporting evidence, contradictory evidence, alternative explanations, open questions, and falsification criteria. Proposed rewordings based on later research are in [`hypotheses/revisions-from-new-research.md`](hypotheses/revisions-from-new-research.md).
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -78,11 +78,11 @@ Bonobos (*Pan paniscus*) are a **comparative case, not a blueprint**. The questi
 
 > What does bonobo social organization show about the possible social consequences of strong female relationships in a close human relative?
 
-Bonobos are not a peaceful utopia. Aggression, intergroup conflict, and lethal violence (including by female-dominated coalitions) are documented and are part of the picture. See `research/01`–`03`.
+Bonobos are not a peaceful utopia. Aggression, intergroup conflict, and lethal violence (including by female-dominated coalitions) are documented and are part of the picture. See `research/01`–`03`, and `research/12` for how other species achieve (or don't need) female bonds for female power.
 
 ## The human comparison
 
-Human research covers female friendship and kin networks, mutual aid, associations and clubs, household structure, digital communities, women's movements and their internal divisions, violence and protection, historical women's institutions, and marriage/singlehood outcomes. See `research/04`–`11`.
+Human research covers female friendship and kin networks, cooperative childcare, mutual aid, associations and clubs, household structure, digital communities, women's movements and their internal divisions, violence and protection, historical women's institutions, collective-action case studies, sports and workplace networks, and marriage/singlehood outcomes. See `research/04`–`16`.
 
 ## Contradictory evidence requirement
 
@@ -115,6 +115,11 @@ research/
   09-female-violence-and-male-violence.md
   10-historical-female-institutions.md
   11-marriage-and-singlehood.md
+  12-primate-female-bonds-and-female-dominance.md
+  13-cooperative-breeding-and-kin-networks.md
+  14-friendship-loneliness-and-sex-differences.md
+  15-collective-action-case-studies.md
+  16-teams-and-workplace-networks.md
 evidence/
   primary-sources.md
   academic-studies.md
@@ -125,13 +130,17 @@ hypotheses/
   supporting-evidence.md
   contradictory-evidence.md
   open-questions.md
+  revisions-from-new-research.md
 timeline/
   female-social-organization.md
 notes/
   working-notes.md
   50-sentence-conceptual-framework.md
+.github/workflows/
+  static.yml
+  jekyll-gh-pages.yml
 ```
 
 ## Status
 
-Early scaffolding. Source URLs supplied by the project author are recorded in `evidence/academic-studies.md`; details not yet checked against the full text are flagged **[verify]**. Sources cited from general knowledge of the literature are likewise flagged until confirmed.
+Early scaffolding. Source URLs supplied by the project author are recorded in `evidence/academic-studies.md`; details not yet checked against the full text are flagged **[verify]**. Sources cited from general knowledge of the literature are likewise flagged until confirmed. Research files 12–16 were written without access to the original papers and are entirely **[verify]**.
