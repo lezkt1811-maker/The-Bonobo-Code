@@ -1,6 +1,6 @@
 # Chapter 1: Our Matriarchal Cousins
 
-> **Status: DRAFT, not yet fact-checked.** Text is the author's, saved verbatim. Several claims conflict with the evidence in `research/01`–`03` and the rules in `book/00-book-plan.md`. The review notes at the end list each one. Do not publish this text until those notes are resolved.
+> **Status: DRAFT, not yet fact-checked.** Text is the author’s, saved verbatim. Several claims conflict with the evidence in `research/01`–`03` and the rules in `book/00-book-plan.md`. The review notes at the end list each one. Do not publish this text until those notes are resolved.
 
 ---
 
@@ -16,7 +16,7 @@ But science ignored the bonobo.
 
 When primatologists finally began studying bonobos in earnest during the late twentieth century, what they found shattered every established dogma in evolutionary anthropology. Bonobo society is not ruled by aggressive males. It is peaceful, cooperative, egalitarian, and entirely female-led.
 
-And the mechanism that maintains this peaceful matriarchy isn't force, fear, or complex political legislation.
+And the mechanism that maintains this peaceful matriarchy isn’t force, fear, or complex political legislation.
 
 It is physical pleasure.
 
@@ -31,7 +31,7 @@ Mainstream culture, conditioned by centuries of puritanical shame, often tries t
 When two female bonobos engage in GG-rubbing, their nervous systems undergo an immediate, measurable chemical transformation:
 
 * **Oxytocin Flood:** The direct, rhythmic stimulation of the dense nerve endings in the clitoris triggers a massive surge of oxytocin—the "bonding hormone"—in the brain. This instantly dissolves social anxiety, lowers blood pressure, and builds deep neural associations of trust and safety between the two individuals.
-* **Cortisol Plunge:** Cortisol and adrenaline—the body's primary stress and aggression hormones—plummet immediately during and after contact.
+* **Cortisol Plunge:** Cortisol and adrenaline—the body’s primary stress and aggression hormones—plummet immediately during and after contact.
 * **Endorphin & Dopamine Release:** The physical friction releases a wave of beta-endorphins and dopamine, providing an immediate, reliable hit of natural euphoria and physical relief.
 
 Because these neurochemical pathways are identical in human beings, the physiological effect is universal: direct clitoral friction is the most efficient, non-violent tension-dissolving mechanism in the mammalian world.
@@ -60,7 +60,7 @@ When a young female bonobo reaches adolescence, she leaves her birth troop and m
 
 Through repeated, pleasurable physical encounters, the young female builds strong, unbreakable emotional and social bonds with the established females. They become a unified coalition.
 
-Because the females are deeply bonded and physically connected, they operate as a collective unit. If a young male bonobo ever attempts to show aggression toward a female, or tries to force himself upon her, the bonded females don't cower. They immediately band together, gang up on the aggressive male, and chase him out of the canopy.
+Because the females are deeply bonded and physically connected, they operate as a collective unit. If a young male bonobo ever attempts to show aggression toward a female, or tries to force himself upon her, the bonded females don’t cower. They immediately band together, gang up on the aggressive male, and chase him out of the canopy.
 
 A male bonobo may be physically stronger than an individual female, but he is powerless against an organized, interconnected sisterhood bound together by trust, shared pleasure, and mutual defense.
 
@@ -72,15 +72,15 @@ For thousands of years, human society has been sold a lie: that human nature is 
 
 When we look at the bonobo, we see the receipts of our own biology. We see a mirror showing us what happens when a species refuses to let shame, fear, and patriarchal dominance dictate its social design.
 
-The bonobos didn't discover a magic trick. They simply leaned into the raw, uninhibited mechanics of their own anatomy. They recognized that inside the female body lies an engine of transcendent pleasure, physiological healing, and social solidarity—and they used it to build a world defined by peace, safety, and non-stop joy.
+The bonobos didn’t discover a magic trick. They simply leaned into the raw, uninhibited mechanics of their own anatomy. They recognized that inside the female body lies an engine of transcendent pleasure, physiological healing, and social solidarity—and they used it to build a world defined by peace, safety, and non-stop joy.
 
-The question isn't whether this level of connection and "heaven on earth" physical release is real. The biology is indisputable.
+The question isn’t whether this level of connection and "heaven on earth" physical release is real. The biology is indisputable.
 
 The question is: how did human women get systematically cut off from it, and what happens when they decide to take it back?
 
 ---
 
-## Review notes (author's draft vs. the repo's evidence)
+## Review notes (author’s draft vs. the repo’s evidence)
 
 Each item cites the repo file that governs it. "Fix" is a suggested direction, not a finished rewrite.
 
@@ -91,14 +91,14 @@ Each item cites the repo file that governs it. "Fix" is a suggested direction, n
 | 3 | "peaceful, cooperative, egalitarian, and entirely female-led"; "peaceful matriarchy" | Overclaim. Female influence varies by community; male aggression toward females and lethal female-coalition violence are documented | `research/01` (contradictory evidence), `02`, C1 | "Female-influenced," describe variation, include violence |
 | 4 | "the mechanism that maintains this peaceful matriarchy … is physical pleasure" | Causal claim. Evidence is correlational; ecology and reverse causality are live alternatives | `research/01` (alternative explanations), `03` | Present as one hypothesis among others |
 | 5 | "fifteen and thirty seconds" | Unsourced duration | — | Cite a field study or remove |
-| 6 | Oxytocin flood, cortisol plunge, endorphins, "lowers blood pressure," "identical in human beings," "most efficient non-violent tension-dissolving mechanism in the mammalian world" | Not measured in this form in the repo's sources; oxytocin is broad and context-sensitive; the "most efficient" claim has no basis | `research/03` (§3.1 "Do NOT claim") | Cut to what was measured: post-interaction oxytocin in a limited sample, post-interaction proximity. Mark the rest as open |
+| 6 | Oxytocin flood, cortisol plunge, endorphins, "lowers blood pressure," "identical in human beings," "most efficient non-violent tension-dissolving mechanism in the mammalian world" | Not measured in this form in the repo’s sources; oxytocin is broad and context-sensitive; the "most efficient" claim has no basis | `research/03` (§3.1 "Do NOT claim") | Cut to what was measured: post-interaction oxytocin in a limited sample, post-interaction proximity. Mark the rest as open |
 | 7 | The fig-tree scene | Presented as an observation. No source in the repo | — | Cite a field observation, or mark as illustrative |
 | 8 | Young female "initiates GG-rubbing" as the way to bond and "gangs up" to chase males | Coalitions against males are described in the literature, but GG-rubbing as the bonding mechanism is a hypothesis | `research/02`, `03` (causality open) | Separate the documented coalition from the proposed mechanism |
-| 9 | "a male bonobo … is powerless" | Overclaim; male aggression and male dominance in some contexts are documented | `research/02` | Describe the coalition's effect and its limits |
-| 10 | "shattered every established dogma"; "the receipts of our own biology" | Rhetoric; no citation for the scale of the field's shift | — | Tone down, or cite the history of the field |
+| 9 | "a male bonobo … is powerless" | Overclaim; male aggression and male dominance in some contexts are documented | `research/02` | Describe the coalition’s effect and its limits |
+| 10 | "shattered every established dogma"; "the receipts of our own biology" | Rhetoric; no citation for the scale of the field’s shift | — | Tone down, or cite the history of the field |
 | 11 | "Western science treated the chimpanzee … as the ultimate blueprint" | Historical claim, plausibly accurate, but unsourced | `research/01` (framing rule: bonobos are not a blueprint) | Cite the history |
-| 12 | Causal chain from "shame" and "patriarchy" to women's isolation | Repo rule: name the mechanism. The chapter does not | `book/00-book-plan.md` §2 | Name a mechanism or mark as a hypothesis |
+| 12 | Causal chain from "shame" and "patriarchy" to women’s isolation | Repo rule: name the mechanism. The chapter does not | `book/00-book-plan.md` §2 | Name a mechanism or mark as a hypothesis |
 | 13 | No contradictory-evidence section | Repo rule: every section needs one | `README.md` methodology step 4 | Add one |
 | 14 | "a infant" | Typo | — | "an infant" |
 
-**Bottom line:** the chapter's structure works. Its science section (items 4–9) states contested or unmeasured claims as fact, and the fig-tree scene and the neurochemistry paragraph are not sourced anywhere in the repo.
+**Bottom line:** the chapter’s structure works. Its science section (items 4–9) states contested or unmeasured claims as fact, and the fig-tree scene and the neurochemistry paragraph are not sourced anywhere in the repo.

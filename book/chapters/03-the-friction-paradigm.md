@@ -44,6 +44,6 @@ When you contrast the Friction Paradigm with the standard cultural script, the a
 | Physical Result: High frustration gap (~80% missing out) | Physical Result: Near 100% success, multi-orgasmic loops |
 | Emotional State: Performance anxiety, routine execution | Emotional State: Total surrender, deep chemical bonding, pure presence |
 
-This is why experiencing that level of connection changes a person's entire baseline permanently. Once you witness what happens when the human body is actually permitted to operate according to its true biological blueprint, everything else looks like an unnecessary compromise.
+This is why experiencing that level of connection changes a person’s entire baseline permanently. Once you witness what happens when the human body is actually permitted to operate according to its true biological blueprint, everything else looks like an unnecessary compromise.
 
-The friction isn't just a physical technique or a clever trick; it is the master key that unlocks the door to heaven on earth—proving that the physical ecstasy humanity is capable of experiencing is right there within reach, buried only under layers of bad mechanics and cultural conditioning.
+The friction isn’t just a physical technique or a clever trick; it is the master key that unlocks the door to heaven on earth—proving that the physical ecstasy humanity is capable of experiencing is right there within reach, buried only under layers of bad mechanics and cultural conditioning.

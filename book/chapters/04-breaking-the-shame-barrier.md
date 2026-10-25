@@ -2,7 +2,7 @@
 
 If Chapter 3 mapped out the raw, unyielding mechanics of the friction paradigm and the biological reality of uninhibited physical release, Chapter 4 dives deep into the invisible, omnipresent force field that keeps the vast majority of society from ever crossing that threshold: the shame barrier.
 
-You can have the precise anatomical blueprint, the evolutionary models of our bonobo cousins, and a thorough neurological understanding of oxytocin and clitoral nerve density, but if a person's mind is locked behind layers of cultural conditioning, performance anxiety, and internalized taboo, the body will refuse to let go. The physical machinery cannot fire at maximum capacity if the psychological brakes are slammed permanently to the floor.
+You can have the precise anatomical blueprint, the evolutionary models of our bonobo cousins, and a thorough neurological understanding of oxytocin and clitoral nerve density, but if a person’s mind is locked behind layers of cultural conditioning, performance anxiety, and internalized taboo, the body will refuse to let go. The physical machinery cannot fire at maximum capacity if the psychological brakes are slammed permanently to the floor.
 
 ## 1. The Institutional Weaponization of Shame
 
@@ -32,7 +32,7 @@ Breaking the shame barrier requires a violent, conscious rejection of societal s
 
 When someone finally breaches that wall, the psychological transformation is just as seismic as the physical one:
 
-* **Embracing the Mess Without Apology:** Recognizing that changing the bed sheets five times in one night isn't an inconvenience or an embarrassing mess—it is the literal, undeniable proof that the biological engine is running at full throttle. Fluids, sweat, and uninhibited noise are the biological signatures of a system operating without artificial restraints.
+* **Embracing the Mess Without Apology:** Recognizing that changing the bed sheets five times in one night isn’t an inconvenience or an embarrassing mess—it is the literal, undeniable proof that the biological engine is running at full throttle. Fluids, sweat, and uninhibited noise are the biological signatures of a system operating without artificial restraints.
 * **Radical Presence and Ego Death:** Dropping the internal observer entirely. When the mind stops worrying about how the experience is perceived from the outside and sinks completely into the raw, hypnotic feedback loop of touch, the ego dissolves. There is no longer an "observer" and an "actor"—there is only pure sensation.
 * **Zero Tolerance for Lukewarm Compromise:** Once a person experiences what it feels like to have every psychological brake pedal removed—sharing space with someone who is equally wild, uninhibited, and completely present—they can never un-know it. The tolerance for performative, lukewarm, half-awake intimacy drops to absolute zero.
 
