@@ -52,7 +52,7 @@ PAGE = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Bonobo Code</title>
+<title>The Bonobo Code: Women’s Secret to Heaven on Earth</title>
 <style>
   :root { --bg:#000; --hot:#FF1493; --neon:#FE53BB; --text:#f5e9f0; --muted:#b58ba3; --panel:#12000a; }
   * { box-sizing: border-box; }
@@ -61,6 +61,11 @@ PAGE = """<!doctype html>
   nav { border-right:1px solid var(--hot); padding:24px 16px; position:sticky; top:0; height:100vh; overflow:auto; }
   nav h1 { color:var(--neon); font-size:1.4rem; letter-spacing:.06em; margin:0 0 .3em;
            text-shadow:0 0 8px var(--neon), 0 0 24px var(--hot); }
+  nav .subtitle { color:var(--text); font-size:1rem; margin:0; }
+  .cover { display:block; width:min(240px,70%); margin:0 auto 24px; border-radius:6px;
+           box-shadow:0 0 18px rgba(255,20,147,.45); }
+  select { background:var(--panel); color:var(--neon); border:1px solid var(--hot); border-radius:8px;
+           padding:5px 8px; font:inherit; }
   nav .muted { font-size:.9rem; }
   nav ol { list-style:none; padding:0; margin:1.2em 0 0; }
   nav li { margin:.3em 0; }
@@ -107,6 +112,7 @@ PAGE = """<!doctype html>
 <div class="layout">
   <nav id="sidebar">
     <h1>THE BONOBO CODE</h1>
+    <p class="subtitle">Women’s Secret to Heaven on Earth</p>
     <p class="muted">A book in progress. Pick a chapter and press play.</p>
     <button class="menu-toggle" id="menu-toggle" aria-expanded="false">Chapters</button>
     <ol id="chapter-list">
@@ -115,9 +121,21 @@ __NAV__
   </nav>
 
   <main>
+    <img class="cover" src="cover.svg" alt="Cover of The Bonobo Code: Women’s Secret to Heaven on Earth">
+
     <section class="player" aria-label="Audio player">
       <div class="muted" id="now">Now playing: <span id="now-title"></span></div>
       <audio id="player" controls preload="metadata"></audio>
+      <div class="controls">
+        <button id="back" type="button" aria-label="Back 15 seconds">&#8630; 15s</button>
+        <button id="fwd" type="button" aria-label="Forward 30 seconds">30s &#8631;</button>
+        <label>Speed <select id="speed">
+          <option value="0.75">0.75&times;</option>
+          <option value="1" selected>1&times;</option>
+          <option value="1.25">1.25&times;</option>
+          <option value="1.5">1.5&times;</option>
+        </select></label>
+      </div>
       <div class="controls">
         <button id="prev" type="button">&larr; Previous</button>
         <button id="next" type="button">Next &rarr;</button>
@@ -141,7 +159,39 @@ const missing = document.getElementById("missing");
 const autoplay = document.getElementById("autoplay");
 const sidebar = document.getElementById("sidebar");
 const menuToggle = document.getElementById("menu-toggle");
+const speed = document.getElementById("speed");
 let current = 0;
+let lastSave = 0;
+
+// Per-viewer memory of where each chapter was left. Storage can be blocked, so every access is guarded.
+const POS_KEY = "bonobo-pos-";
+function readPos(num) {
+  try { return parseFloat(localStorage.getItem(POS_KEY + num)) || 0; } catch (e) { return 0; }
+}
+function writePos(num, t) {
+  try { localStorage.setItem(POS_KEY + num, String(t)); } catch (e) {}
+}
+
+player.addEventListener("loadedmetadata", () => {
+  const num = player.dataset.num;
+  const saved = readPos(num);
+  if (saved > 5 && saved < player.duration - 10) player.currentTime = saved;
+  player.playbackRate = parseFloat(speed.value);
+});
+player.addEventListener("timeupdate", () => {
+  if (Date.now() - lastSave > 3000) {
+    writePos(player.dataset.num, player.currentTime);
+    lastSave = Date.now();
+  }
+});
+player.addEventListener("pause", () => writePos(player.dataset.num, player.currentTime));
+speed.addEventListener("change", () => { player.playbackRate = parseFloat(speed.value); });
+document.getElementById("back").addEventListener("click", () => {
+  player.currentTime = Math.max(0, player.currentTime - 15);
+});
+document.getElementById("fwd").addEventListener("click", () => {
+  player.currentTime = Math.min(player.duration || Infinity, player.currentTime + 30);
+});
 
 function indexFromHash() {
   const m = location.hash.match(/^#ch(\\d+)$/);
@@ -160,6 +210,7 @@ function show(i, play) {
     b.setAttribute("aria-current", j === i ? "true" : "false"));
   missing.hidden = ch.has_audio;
   if (ch.has_audio) {
+    player.dataset.num = ch.num;
     player.src = ch.audio;
     player.hidden = false;
     if (play) player.play().catch(() => {});
@@ -179,6 +230,7 @@ document.querySelectorAll("#chapter-list button").forEach((b, j) =>
 document.getElementById("prev").addEventListener("click", () => show(current - 1, true));
 document.getElementById("next").addEventListener("click", () => show(current + 1, true));
 player.addEventListener("ended", () => {
+  writePos(player.dataset.num, 0);
   if (autoplay.checked && current < chapters.length - 1) show(current + 1, true);
 });
 menuToggle.addEventListener("click", () => {
